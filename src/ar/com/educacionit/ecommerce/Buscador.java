@@ -1,7 +1,5 @@
 package ar.com.educacionit.ecommerce;
 
-import java.util.Arrays;
-
 public class Buscador {
 	private String clave;
 	private Resultado[] resultados;

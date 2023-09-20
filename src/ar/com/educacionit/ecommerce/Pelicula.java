@@ -43,7 +43,7 @@ public class Pelicula extends Resultado {
 
 	@Override
 	public String toString() {
-		return "Pelicula [sinopsis=" + sinopsis + ", productora=" + productora + ", codigo=" + codigo
+		return super.toString() + "Pelicula [sinopsis=" + sinopsis + ", productora=" + productora + ", codigo=" + codigo
 				+ ", tipoDeAudiencia=" + tipoDeAudiencia + ", fechaDePublicacion=" + fechaDePublicacion + "]";
 	}
 	

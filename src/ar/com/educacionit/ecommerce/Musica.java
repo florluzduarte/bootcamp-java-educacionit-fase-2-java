@@ -45,7 +45,7 @@ public class Musica extends Resultado {
 
 	@Override
 	public String toString() {
-		return "Musica [selloDiscografico=" + selloDiscografico + ", codigo=" + codigo + ", formato=" + formato
+		return super.toString() + "Musica [selloDiscografico=" + selloDiscografico + ", codigo=" + codigo + ", formato=" + formato
 				+ ", fechaDePublicacion=" + fechaDePublicacion + ", canciones=" + Arrays.toString(canciones) + "]";
 	}
 

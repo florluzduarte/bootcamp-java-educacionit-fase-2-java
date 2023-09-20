@@ -49,7 +49,7 @@ public class Libro extends Resultado {
 
 	@Override
 	public String toString() {
-		return "Libro [editorial=" + editorial + ", isbn=" + isbn + ", numeroDePaginas=" + numeroDePaginas + ", idioma="
+		return super.toString() + "Libro [editorial=" + editorial + ", isbn=" + isbn + ", numeroDePaginas=" + numeroDePaginas + ", idioma="
 				+ idioma + ", fechaDePublicacion=" + fechaDePublicacion + ", sinopsis=" + sinopsis + "]";
 	}
 
