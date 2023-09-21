@@ -4,9 +4,13 @@ public class MainIdiomas {
 
 	public static void main(String[] args) {
 		
-		IIdioma espaniol = new Espaniol();
-		Persona pepe = new Persona("pepe", espaniol);
+		IIdioma idioma = new Espaniol();
+		Persona pepe = new Persona("pepe", idioma);
 		
 		pepe.decir("Hola mundo");
+		
+		idioma = new Ingles();
+		pepe.aprender(idioma);
+		pepe.decir("Hello world", idioma);
 	}
 }
