@@ -66,11 +66,12 @@ public class Persona {
 	}
 
 	public void decir(String palabras) {
-		if("".equals(palabras)) {
+		String aux = palabras.trim();
+		if("".equals(aux)) {
 			System.err.println("Debe ingresar una frase para hablar");
 			return;
 		}
-		this.idiomaNativo.decir(palabras);
+		this.idiomaNativo.decir(aux);
 	}
 	
 	public void decir(String palabras, IIdioma idioma) {
